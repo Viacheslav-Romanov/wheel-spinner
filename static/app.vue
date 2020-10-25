@@ -43,9 +43,9 @@ limitations under the License.
           <br/>
           <textboxbuttons></textboxbuttons>
           <textbox></textbox>
-          <app-info
+          <!-- <app-info
             v-on:open-options-dialog="openOptionsDialog()"
-          ></app-info>
+          ></app-info> -->
         </div>
       </div>
     </section>

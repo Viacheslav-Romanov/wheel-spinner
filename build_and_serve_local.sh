@@ -9,4 +9,4 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 ./build_dev.sh
-firebase serve --project=test
+firebase serve --project=happytecapp

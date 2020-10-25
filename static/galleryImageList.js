@@ -19,4 +19,5 @@ exports.list = [
   {fileName: './images/dog.png', title: 'Dog'},
   {fileName: './images/dollar-sign.png', title: 'Dollar sign'},
   {fileName: './images/dragon.png', title: 'Dragon'},
+  {fileName: './images/sgx.png', title: 'SGX logo'},
 ]

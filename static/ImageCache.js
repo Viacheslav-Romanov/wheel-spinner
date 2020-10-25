@@ -14,11 +14,13 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 import './images/none.png';
+import './images/hat-with-names.png';
 import './third_party/publicdomainvectors/camera.png';
 import './third_party/publicdomainvectors/cat.png';
 import './third_party/publicdomainvectors/dog.png';
 import './third_party/publicdomainvectors/dollar-sign.png';
 import './third_party/publicdomainvectors/dragon.png';
+import './third_party/publicdomainvectors/sgx.png';
 
 export default function ImageCache() {
   this.images = new Object();

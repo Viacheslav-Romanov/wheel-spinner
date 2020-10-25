@@ -79,6 +79,7 @@ exports.list = {
     'Rolls-Royce': ['#680021', '#fffaec', '#939598', '#000000'],
     'Ryanair': ['#073590', '#f1c933', '#2091eb'],
     'Salesforce': ['#1798c1', '#ff1100'],
+    'SGX': ['#BDD831', '#0C236B', '#FFFFFF', '#4DA1BA'],
     'Slack': ['#6ecadc', '#e9a820', '#e01563', '#3eb991'],
     'Stack Exchange': ['#1e5397', '#376db6', '#4ca2da', '#91d8f4'],
     'Staples': ['#cc0000', '#2c8aec', '#ffcc00'],
@@ -93,7 +94,8 @@ exports.list = {
     'Zapier': ['#ff4a00', '#fd7622', '#ffc43e', '#5f6c72', '#499df3', '#13d0ab'],
   },
   'Default': {
-    'Default': ['#3369E8', '#D50F25', '#EEB211', '#009925'],
+    // 'Default': ['#3369E8', '#D50F25', '#EEB211', '#009925'],
+    'Default': ['#BDD831', '#0C236B', '#FFFFFF', '#4DA1BA'],
   },
   'Flags': {
     'Australia': ['#00008B', '#FFFFFF', '#FF0000'],

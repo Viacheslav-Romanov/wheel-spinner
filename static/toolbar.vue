@@ -14,8 +14,11 @@ See the License for the specific language governing permissions and
 limitations under the License.
 -->
 <template>
-  <b-navbar type='is-info' style="box-shadow: 0 3px 3px 0 lightgrey">
+  <b-navbar style="box-shadow: 0 3px 3px 0 lightgrey">
     <template slot="brand">
+      <b-navbar-item>
+        <img src="images/sgx.png"/>
+      </b-navbar-item>
       <b-navbar-item style="font-size:24px" href="/">
         {{toolbarBrand}}
       </b-navbar-item>
@@ -92,7 +95,7 @@ limitations under the License.
   export default {
     data() {
       return {
-        toolbarBrand: window.location.host,
+        toolbarBrand: 'SGX Virtual Technology Symposium 2020',
         browserIsIEOrOldEdge: Util.browserIsIEOrOldEdge(navigator.userAgent),
         locale: this.$i18n.locale, locales: Locales.getNamesForAll()
       };

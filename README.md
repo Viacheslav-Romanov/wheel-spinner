@@ -117,7 +117,7 @@ in the left-hand navigation bar.
     OAUTH_CLIENT_ID=
     GCP_APP_ID=
     ````
-1. Add these values after the equal signs:
+2. Add these values after the equal signs:
     * FUNCTION_PREFIX: Run the script *./build_and_serve_local.sh*. You will
       see a message saying
       ```
@@ -147,7 +147,7 @@ in the left-hand navigation bar.
       Click the navigation menu in the upper right-hand corner of the page.
       Select Home. Under *Project info*, copy the *Project number*. For example:
       *57344078235*.
-
+3. Enable Google Sheets and Picker APIs in the cloud console for your project
 
 ### Host the app on your local machine ###
 

@@ -10,3 +10,4 @@
 # limitations under the License.
 rm -r dist/*
 npx webpack --config build/dev.config.js --display=minimal
+# npx webpack --config build/dev.config.js

@@ -44,6 +44,7 @@ limitations under the License.
             </b-field>
             <hr>
             <b-field :label="$t('optionsdialog.Max entries on wheel')">
+              <!-- <small>All names in the text-box have the same chance of winning, regardless of this value.</small> -->
               <b-slider v-model="wheelConfig.maxNames" :min="4" :max="200">
                 <template v-for="val in [50,100,150,200]">
                   <b-slider-tick :value="val" :key="val">{{ val }}</b-slider-tick>
